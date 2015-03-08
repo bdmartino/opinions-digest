@@ -8,10 +8,10 @@
     <title>Opinions Digest</title>
     <!-- Path to Framework7 Library CSS-->
     <link rel="stylesheet" href="css/framework7.min.css">
+    <!-- Path to your Kitchen Sinc styles-->
+    <!--<link rel="stylesheet" href="css/kitchen-sink.css">-->
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/my-app.css">
-    <!-- Path to your Kitchen Sinc styles-->
-    <link rel="stylesheet" href="css/kitchen-sink.css">
     <!-- Path to your Homepage styles-->
     <link rel="stylesheet" href="css/homepage.css">
   </head>
@@ -47,50 +47,18 @@
           </div>
         </div>
         <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
-        <div class="pages navbar-through toolbar-through">
-          <!-- Page, data-page contains page name-->
-          <div data-page="index" class="page">
-            <!-- Scrollable page content-->
+        <div class="pages navbar-through">
+          <div data-page="swiper-fade" class="page">
             <div class="page-content">
-              <div class="content-block-title">Motherfucking homepage</div>
-              <div class="content-block">
-                <div class="content-block-inner">
-                  <p>Couple of worlds here because my app is so awesome!</p>
-                  <p>Duis sed erat ac eros ultrices pharetra id ut tellus. Praesent rhoncus enim ornare ipsum aliquet ultricies. Pellentesque sodales erat quis elementum sagittis.</p>
+              <!-- Slider -->
+              <div class="swiper-container" id="all-topics">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide" id="home-topic1"><span class="topic-title">Topic 1</span></div>
+                  <div class="swiper-slide" id="home-topic2"><span class="topic-title">Topic 2</span></div>
+                  <div class="swiper-slide" id="home-topic3"><span class="topic-title">Topic 3</span></div>
                 </div>
+                <div class="swiper-pagination"></div>
               </div>
-              <div class="content-block-title">Topics and opinions</div>
-              <div class="list-block">
-                <ul>
-                  <li><a href="topic1.html" class="item-link">
-                      <div class="item-content">
-                        <div class="item-inner"> 
-                          <div class="item-title">Topic 1</div>
-                        </div>
-                      </div></a></li>
-                  <li><a href="topic2.html" class="item-link">
-                      <div class="item-content">
-                        <div class="item-inner"> 
-                          <div class="item-title">Topic 2</div>
-                        </div>
-                      </div></a></li>
-                  <li><a href="topic3.html" class="item-link">
-                      <div class="item-content"> 
-                        <div class="item-inner">
-                          <div class="item-title">Topic 3</div>
-                        </div>
-                      </div></a></li>
-                </ul>
-              </div>
-              
-
-              <!-- <div class="content-block-title">Side panels</div>
-              <div class="content-block">
-                <div class="row">
-                  <div class="col-50"><a href="#" data-panel="left" class="button open-panel">Left Panel</a></div>
-                  <div class="col-50"><a href="#" data-panel="right" class="button open-panel">Right Panel</a></div>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>

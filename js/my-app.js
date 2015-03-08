@@ -18,6 +18,12 @@ myApp.onPageInit('about', function (page) {
     });
 });
 
+// Init slider and store its instance in mySwiper variable
+var mySwiper = myApp.swiper('.swiper-container', {
+    pagination:'.swiper-pagination',
+    effect: 'fade'
+});
+
 // Generate dynamic page
 var dynamicPageIndex = 0;
 function createContentPage() {
