@@ -10,18 +10,27 @@ var mainView = myApp.addView('.view-main', {
     dynamicNavbar: true
 });
 
-// Callbacks to run specific code for specific pages, for example for About page:
-myApp.onPageInit('about', function (page) {
-    // run createContentPage func after link was clicked
-    $$('.create-page').on('click', function () {
-        createContentPage();
-    });
-});
+$$(document).on('pageInit', function (e) {
+   var page = e.detail.page;
+   console.log("page.name: " + page.name);
+   if (page.name == 'topic1') {
+        var opinionSwiper = new Swiper('.opinion-swiper', {
+            pagination:'.opinion-swiper .swiper-pagination',
+            spaceBetween: 50
+        });
+   }
+})
 
 // Init slider and store its instance in mySwiper variable
-var mySwiper = myApp.swiper('.swiper-container', {
+var mySwiperAllTopics = myApp.swiper('#all-topics', {
     pagination:'.swiper-pagination',
     effect: 'fade'
+});
+
+// 1 Slide Per View, 50px Between
+var mySwiper1 = myApp.swiper('.swiper-1', {
+  pagination:'.swiper-1 .swiper-pagination',
+  spaceBetween: 50
 });
 
 // Generate dynamic page
