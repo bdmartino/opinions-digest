@@ -14,12 +14,15 @@
     <link rel="stylesheet" href="css/my-app.css">
     <!-- Path to your Homepage styles-->
     <link rel="stylesheet" href="css/homepage.css">
+    <!-- It should be included After main Framework7 styles -->
+    <link rel="stylesheet" href="css/framework7.themes.css">
+
     <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   </head>
-  <body>
+  <body class="theme-lightblue">
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
     <!-- Panels overlay-->
@@ -35,7 +38,7 @@
       <!-- Your main view, should have "view-main" class-->
       <div class="view view-main">
         <!-- Top Navbar-->
-        <div class="navbar">
+        <div class="navbar layout-dark">
           <div class="navbar-inner">
             <!-- We have home navbar without left link-->
             <div class="center sliding">Opinions Digest</div>
