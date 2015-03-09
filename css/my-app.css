@@ -4,15 +4,36 @@
   /*background: blue;*/
 }
 
+.rotatePagination{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+    left: auto;
+    right: auto;
+}
+
 .cardFact{
   letter-spacing: normal;
+  color: black;
   font-style: italic;
   font-weight: 600;
+  padding-left: 3px;
+  padding-right: 3px;
+  /*border-style: solid;*/
+  border-top: thin ridge #DBDEDD;
 }
 
 .page1back{
-  background-image:url(../img/africablur.jpg);
+  background-image:url(../img/netanyahuBlur.jpg);
   
+}
+
+.summaryOnFront{
+  width: 60%;
+  padding-left: 10%;
+  padding-top: 30%;
+  color:white;
 }
 
 .contentBlockTitle1{
@@ -30,6 +51,18 @@
   padding-top: 3px;
 }
 
+.popupFont {
+  color: black;
+  line-height: 170%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  font-family: 'Lora', serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+}
 .swiperSlideDiv{
   margin: 0 auto;
   width: 90%;
@@ -67,7 +100,7 @@
 }
 
 #home-topic1 {
-  background-image:url(../img/africa.jpeg);
+  background-image:url(../img/netanyahu.png);
   background-size:auto 100%;
 }
 
