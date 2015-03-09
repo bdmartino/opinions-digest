@@ -15,14 +15,14 @@
   <div data-page="topic1" class="page">
     <div class="page-content">
       <!-- Vertical parent slider -->
-      <div data-pagination=".swiper-pagination-v" class="swiper-container swiper-init my-swiper-container" data-direction="vertical">
-        <div class="swiper-pagination swiper-pagination-v"></div>
+      <div class="swiper-container my-swiper-container topic-swiper">
+        <div class="swiper-pagination topic-swiper-pagination"></div>
         <div class="swiper-wrapper">
-          
+          <div class="swiper-slide"><span>Intro slide with index</span></div>
           <div class="swiper-slide">
             <div class="content-block-title">Question 1</div>
-            <div class="swiper-container opinion-swiper">
-              <div class="swiper-pagination"></div>
+            <div class="swiper-container opinion-swiper" id="opinion-swiper-1">
+              <div class="swiper-pagination" id="opinion-swiper-1-pagination"></div>
               <div class="swiper-wrapper">
                 <div class="swiper-slide"><span>Opinion 1</span></div>
                 <div class="swiper-slide"><span>Opinion 2</span></div>
@@ -33,8 +33,8 @@
 
           <div class="swiper-slide">
             <div class="content-block-title">Question 2</div>
-            <div class="swiper-container opinion-swiper">
-              <div class="swiper-pagination"></div>
+            <div class="swiper-container opinion-swiper" id="opinion-swiper-2">
+              <div class="swiper-pagination" id="opinion-swiper-2-pagination"></div>
               <div class="swiper-wrapper">
                 <div class="swiper-slide"><span>Opinion 1</span></div>
                 <div class="swiper-slide"><span>Opinion 2</span></div>
@@ -45,8 +45,8 @@
 
           <div class="swiper-slide">
             <div class="content-block-title">Question 3</div>
-            <div class="swiper-container opinion-swiper">
-              <div class="swiper-pagination"></div>
+            <div class="swiper-container opinion-swiper" id="opinion-swiper-3">
+              <div class="swiper-pagination" id="opinion-swiper-3-pagination"></div>
               <div class="swiper-wrapper">
                 <div class="swiper-slide"><span>Opinion 1</span></div>
                 <div class="swiper-slide"><span>Opinion 2</span></div>
@@ -54,7 +54,7 @@
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
   </div>

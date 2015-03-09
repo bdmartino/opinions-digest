@@ -14,8 +14,23 @@ $$(document).on('pageInit', function (e) {
    var page = e.detail.page;
    console.log("page.name: " + page.name);
    if (page.name == 'topic1') {
-        var opinionSwiper = new Swiper('.opinion-swiper', {
-            pagination:'.opinion-swiper .swiper-pagination',
+        var topicSwiper = new Swiper('.topic-swiper', {
+            pagination:'.topic-swiper-pagination',
+            direction: 'vertical'
+        });
+
+        var opinionSwiper1 = new Swiper('#opinion-swiper-1', {
+            pagination:'#opinion-swiper-1-pagination',
+            spaceBetween: 50
+        });
+
+        var opinionSwiper2 = new Swiper('#opinion-swiper-2', {
+            pagination:'#opinion-swiper-2-pagination',
+            spaceBetween: 50
+        });
+
+        var opinionSwiper3 = new Swiper('#opinion-swiper-3', {
+            pagination:'#opinion-swiper-3-pagination',
             spaceBetween: 50
         });
    }
@@ -25,12 +40,6 @@ $$(document).on('pageInit', function (e) {
 var mySwiperAllTopics = myApp.swiper('#all-topics', {
     pagination:'.swiper-pagination',
     effect: 'fade'
-});
-
-// 1 Slide Per View, 50px Between
-var mySwiper1 = myApp.swiper('.swiper-1', {
-  pagination:'.swiper-1 .swiper-pagination',
-  spaceBetween: 50
 });
 
 // Generate dynamic page
