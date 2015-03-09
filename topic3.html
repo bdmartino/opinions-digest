@@ -10,25 +10,52 @@
     </div>
   </div>
 </div>
+
 <div class="pages navbar-through">
-  <div data-page="swiper-vertical" class="page">
+  <div data-page="topic1" class="page">
     <div class="page-content">
-      <!-- Slider -->
-      <div data-direction="vertical" data-pagination=".swiper-pagination" data-pagination-hide="false" class="swiper-container swiper-init ks-demo-slider">
-        <div class="swiper-pagination"></div>
+      <!-- Vertical parent slider -->
+      <div class="swiper-container my-swiper-container topic-swiper">
+        <div class="swiper-pagination topic-swiper-pagination"></div>
         <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div>
-          <div class="swiper-slide">Slide 10</div>
+          
+          <div class="swiper-slide">
+            <div class="content-block-title">Question 1</div>
+            <div class="swiper-container opinion-swiper" id="opinion-swiper-1">
+              <div class="swiper-pagination" id="opinion-swiper-1-pagination"></div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><span>Opinion 1</span></div>
+                <div class="swiper-slide"><span>Opinion 2</span></div>
+                <div class="swiper-slide"><span>Opinion 3</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="content-block-title">Question 2</div>
+            <div class="swiper-container opinion-swiper" id="opinion-swiper-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><span>Opinion 1</span></div>
+                <div class="swiper-slide"><span>Opinion 2</span></div>
+                <div class="swiper-slide"><span>Opinion 3</span></div>
+              </div>
+              <div class="swiper-pagination" id="opinion-swiper-2-pagination"></div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="content-block-title">Question 3</div>
+            <div class="swiper-container opinion-swiper" id="opinion-swiper-3">
+              <div class="swiper-pagination" id="opinion-swiper-3-pagination"></div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><span>Opinion 1</span></div>
+                <div class="swiper-slide"><span>Opinion 2</span></div>
+                <div class="swiper-slide"><span>Opinion 3</span></div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </div>
   </div>
 </div>
