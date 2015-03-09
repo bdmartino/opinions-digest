@@ -33,6 +33,16 @@ $$(document).on('pageInit', function (e) {
             pagination:'#opinion-swiper-3-pagination',
             spaceBetween: 50
         });
+
+        var opinionSwiper4 = new Swiper('#opinion-swiper-4', {
+            pagination:'#opinion-swiper-4-pagination',
+            spaceBetween: 50
+        });
+
+        var opinionSwiper5 = new Swiper('#opinion-swiper-5', {
+            pagination:'#opinion-swiper-5-pagination',
+            spaceBetween: 50
+        });
    }
 })
 
