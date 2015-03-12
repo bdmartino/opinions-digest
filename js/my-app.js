@@ -52,27 +52,6 @@ var mySwiperAllTopics = myApp.swiper('#all-topics', {
     effect: 'fade'
 });
 
-$$('.t1-q1-o1').on('opened', function () {
-  console.log('t1-q1-o1 opened')
-});
-$$('.t1-q1-o1').on('close', function () {
-  console.log('t1-q1-o1 is closing')
-});
-
-$$('.t1-q1-o2').on('opened', function () {
-  console.log('t1-q1-o2 opened')
-});
-$$('.t1-q1-o2').on('close', function () {
-  console.log('t1-q1-o2 is closing')
-});
-
-$$('.t1-q1-o3').on('opened', function () {
-  console.log('t1-q1-o3 opened')
-});
-$$('.t1-q1-o3').on('close', function () {
-  console.log('t1-q1-o3 is closing')
-});
-
 // Generate dynamic page
 var dynamicPageIndex = 0;
 function createContentPage() {
