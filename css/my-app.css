@@ -67,15 +67,36 @@
   border-right: 1px solid white;
 }
 
-#line-final {
+#t1-line-final {
   top:200px;
   height: 20%;
 }
 
-#line-first {
+#t1-line-first {
   height: 100px;
   border-right: 0px solid white;
 }
+
+#t2-line-final {
+  top:300px;
+  height: 36.2%;
+}
+
+#t2-line-first {
+  height: 150px;
+  border-right: 0px solid white;
+}
+
+#t3-line-final {
+  top:300px;
+  height: 39%;
+}
+
+#t3-line-first {
+  height: 150px;
+  border-right: 0px solid white;
+}
+
 
 .index-all-questions{
   margin: auto auto;
