@@ -4,19 +4,6 @@
   /*background: blue;*/
 }
 
-/*.rotatePagination{
-
-    -ms-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg); 
-    transform: rotate(270deg);
-
-    
-    height: 5%;
-    width: 5%  !important;
-    margin-left: 45%;
-    margin-right: auto;
-}*/
-
 .topicTitle{
   font-family: 'Rambla', sans-serif;
   font-weight: 800;
@@ -38,21 +25,25 @@
   border-top: thin ridge #DBDEDD;
 }
 
-.page1back{
-  background-image:url(../img/netanyahuBlur.jpg);
-  
+.index-all-questions{
+  margin: auto auto;
+  font-family: 'Rambla', sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  position: relative;
+  top: 120px;
+  /*top: 18%;
+  transform: translateY(-50%);*/
 }
 
 .index-question{
-  font-family: 'Lora', serif;
   font-size: 14px;
   letter-spacing: 1.2px;
-  width: 60%;
-  margin-left: 5%;
-  padding: 5%;
-  color:white;
-  margin-top: 10%;
-  /*padding: 20px;*/
+  width: 80%;
+  margin: 2% auto;
+  padding: 2%;
+  color: white;
+  border: 1px solid white;
   background: rgb(34,34,34); /* for IE */
   background: rgba(34,34,34,0.75);
 }
@@ -124,6 +115,9 @@
   color: white;
 }
 
+.opinion-title {
+}
+
 .my-swiper-container {
   height: 100%;
 }
@@ -135,17 +129,36 @@
   padding: 5px;
 }
 
+.page1back{
+  background-image: url(../img/netanyahuBlur.jpg);
+  background-size: auto 100%;
+}
+
+.page2back{
+  background-image: url(../img/epa_mideast_israel_palestinians_conflict.jpg);
+  background-size: auto 100%;
+  background-position: center; 
+}
+
+.page3back{
+  background-image: url(../img/demonstrators-defy-curfew-ferguson.jpg);
+  background-size: auto 100%;
+  background-position: center; 
+}
+
 #home-topic1 {
   background-image:url(../img/netanyahu.png);
   background-size:auto 100%;
 }
 
 #home-topic2 {
-  background-image:url(../img/blue.jpeg);
-  background-size:auto 100%;
+  background-image:url(../img/epa_mideast_israel_palestinians_conflict-1.jpg);
+  background-size: auto 100%;
+  background-position: center; 
 }
 
 #home-topic3 {
-  background-image:url(../img/man.jpeg);
-  background-size:auto 100%;
+  background-image:url(../img/demonstrators-defy-curfew-ferguson-1.jpg);
+  background-size: auto 100%;
+  background-position: center; 
 }
