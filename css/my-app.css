@@ -14,9 +14,33 @@
   width: 75%;
 
 }
+
+.specialNumber{
+  font-size: 25px;
+  display: inline-block;
+  float:left;
+  width:30%;
+  height: 100%;
+  overflow:hidden;
+  text-align: center;
+}
+
+.specialNumber h2{
+  font-size: 40 px !important;
+  color: #5ac8fa;
+  margin: 0px;
+}
+
+.normalText{
+  width:69%;
+  overflow:hidden;
+  font-size: 11px;
+  color: 939393 !important;
+}
+
 .cardFact{
+  color: #939393;
   letter-spacing: normal;
-  color: black;
   font-style: normal;
   font-size: 10px;
   font-weight: 600;
@@ -35,51 +59,43 @@
   width: 90%;
 }
 
-.specialNumber{
-  font-size: 25px;
-  display: inline-block;
-  float:left;
-  width:30%;
-  height: 100%;
-  overflow:hidden;
-  text-align: center;
+.line {
+  margin: -8px -8px;
+  width: 175px;
+  padding: 10px;
+  /*position: relative;*/
+  border-right: 1px solid white;
 }
 
-.specialNumber h3{
-  font-size: 40px !important;
-  color: #FB7386;
-  margin: 0px;
+#line-final {
+  top:200px;
+  height: 20%;
 }
 
-.normalText{
-  width:69%;
-  overflow:hidden;
-  font-size: 12px;
+#line-first {
+  height: 100px;
+  border-right: 0px solid white;
 }
-.page1back{
-  background-image:url(../img/netanyahuBlur.jpg);
-  background-size:auto 100%;
+
 .index-all-questions{
   margin: auto auto;
   font-family: 'Rambla', sans-serif;
   font-weight: 800;
   font-size: 60px;
   position: relative;
-  top: 120px;
-  /*top: 18%;
-  transform: translateY(-50%);*/
+  height: 80%
+  top: 18%;
+  transform: translateY(-50%);
 }
 
 .index-question{
-  font-family: 'Lora', serif;
   font-size: 14px;
   letter-spacing: 1.2px;
-  width: 60%;
-  margin-left: 5%;
-  padding: 5%;
-  color:white;
-  margin-top: 10%;
-  /*padding: 20px;*/
+  width: 80%;
+  margin: 2% auto;
+  padding: 2%;
+  color: white;
+  border: 1px solid white;
   background: rgb(34,34,34); /* for IE */
   background: rgba(34,34,34,0.75);
 }
@@ -99,8 +115,8 @@
 }
 
 .contentBlockTitle1{
-  font-family: 'Rambla', sans-serif;
-  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   letter-spacing: 2px;
   font-weight: 600;
   font-size: 17px;
