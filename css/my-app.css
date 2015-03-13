@@ -30,17 +30,48 @@
 .cardFact{
   letter-spacing: normal;
   color: black;
-  font-style: italic;
+  font-style: normal;
+  font-size: 10px;
   font-weight: 600;
-  padding-left: 3px;
-  padding-right: 3px;
+/*  padding-left: 3px;
+  padding-right: 3px;*/
+ 
+  padding-top: 5px;
+  padding-bottom: 5px;
   /*border-style: solid;*/
-  border-top: thin ridge #DBDEDD;
+  border-top: solid rgba(112, 118, 148, .5);
+  border-bottom: solid rgba(112, 118, 148, .5);
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  bottom: 0;
+  position: absolute;
+  width: 90%;
 }
 
+.specialNumber{
+  font-size: 25px;
+  display: inline-block;
+  float:left;
+  width:30%;
+  height: 100%;
+  overflow:hidden;
+  text-align: center;
+}
+
+.specialNumber h3{
+  font-size: 40px !important;
+  color: #FB7386;
+  margin: 0px;
+}
+
+.normalText{
+  width:69%;
+  overflow:hidden;
+  font-size: 12px;
+}
 .page1back{
   background-image:url(../img/netanyahuBlur.jpg);
-  
+  background-size:auto 100%;
 }
 
 .index-question{
@@ -107,6 +138,8 @@
   padding-right: 10px;
   font-size: 14px;
   font-family: 'Lora', serif;
+  height: 90%;
+  position: relative;
 }
 
 .swiperSlideDiv h3{
