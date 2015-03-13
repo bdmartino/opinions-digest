@@ -25,13 +25,39 @@
   text-align: center;
 }
 
-.specialNumber h2{
-  font-size: 40 px !important;
+.opinionHeadinger{
+    /*color: #939393;*/
+    color: #fb7386;
+  letter-spacing: normal;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Lora', serif;
+  line-height: 1.6;
+  margin-top: 16px;
+  margin-bottom: -16px;
+
+}
+
+.smlCaps {
+  color: #939393;
+  letter-spacing: normal;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Lora', serif;
+  line-height: 1.6;
+}
+
+.specialNumberh2{
+  font-size: 60px !important;
   color: #5ac8fa;
-  margin: 0px;
+  margin-bottom: -15px;
+  margin-top: -10px;
 }
 
 .normalText{
+  margin-top: 17px;
   width:69%;
   overflow:hidden;
   font-size: 11px;
@@ -50,13 +76,20 @@
   padding-top: 5px;
   padding-bottom: 5px;
   /*border-style: solid;*/
-  border-top: solid rgba(112, 118, 148, .5);
+  /*border-top: solid rgba(112, 118, 148, .5);*/
   border-bottom: solid rgba(112, 118, 148, .5);
-  border-top-width: 1px;
+  /*border-top-width: 1px;*/
   border-bottom-width: 1px;
   bottom: 0;
   position: absolute;
   width: 90%;
+}
+
+.factHeading{
+  border-bottom: solid rgba(112, 118, 148, .5);
+  border-bottom-width: 1px;
+  margin-bottom: 5px;
+  color: #fb7386 !important;
 }
 
 .line {
