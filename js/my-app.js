@@ -12,7 +12,6 @@ var mainView = myApp.addView('.view-main', {
 
 $$(document).on('pageInit', function (e) {
    var page = e.detail.page;
-   console.log("page.name: " + page.name);
    if (page.name == 'topic1') {
         var topicSwiper = new Swiper('.topic-swiper', {
             pagination:'.topic-swiper-pagination',
@@ -43,8 +42,31 @@ $$(document).on('pageInit', function (e) {
             pagination:'#opinion-swiper-5-pagination',
             spaceBetween: 50
         });
+
+        $("#index-question-1").click(function(){
+             location.href = "#question1";
+        });
+
+        $("#index-question-2").click(function(){
+             location.href = "#question2";
+        });
+
+        $("#index-question-3").click(function(){
+             location.href = "#question3";
+        });
+
+        $("#index-question-4").click(function(){
+             location.href = "#question4";
+        });
+
+        $("#index-question-5").click(function(){
+             location.href = "#question5";
+        });
+
    }
-})
+});
+
+    
 
 // Init slider and store its instance in mySwiper variable
 var mySwiperAllTopics = myApp.swiper('#all-topics', {
